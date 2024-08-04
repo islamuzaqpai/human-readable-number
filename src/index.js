@@ -31,5 +31,3 @@ module.exports = function toReadable(number) {
         return `${ones[num1]} hundred ${tens[num4]}${num3 !== 0 ? ' ' + ones[num3] : ''}`;
     }
 }
-
-console.log(func(959));
